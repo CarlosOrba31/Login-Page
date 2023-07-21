@@ -8,12 +8,25 @@ span{
     font-weight: bold;
 }
 
+h2{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
 .back-btn{
     background-image: url('../Media/volver-flecha.png');
     background-size: 75%;
     background-repeat: no-repeat;
     background-position: center;
     background-color: white;
+    border: none;
     border-radius: 5px;
     border-color: #ddd;
     margin-bottom: 15px;
@@ -56,4 +69,79 @@ span{
     background-color: #f3f3f4;
     border: none;
     border-radius: 8px;
+    height: 30px;
+}
+
+.input:hover{
+    -webkit-box-shadow: 0 0 0 4px rgba(234,76,137,0.1);
+    box-shadow: 0 0 0 4px rgba(234,76,137,0.1);
+}
+
+.labelemail{
+    display: flex;
+    flex-direction: column;
+}
+
+.labelemail span{
+    padding-bottom: 5px;
+}
+
+.labelemail input{
+    width: 442px;
+}
+
+.email{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#pasword{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+#Password::placeholder{
+    text-align: center;
+}
+
+.password{
+    display: flex;
+    flex-direction: column;
+}
+
+.password span{
+    padding-bottom: 5px;
+}
+
+.password input{
+    width: 442px;
+}
+
+#terms-check{
+    display: flex;
+    flex-direction: column;
+    width: 442px;
+}
+
+.check{
+    padding-bottom: 25px;
+}
+
+.check span{
+    font-weight: 400;
+}
+
+#terms-check button{
+    height: 60px;
+    border-radius: 8px;
+    background-color: #0d0c22;
+    color: white;
+    font-weight: bold;
+}
+
+#terms-check button:hover{
+    background-color: #565564;
+    cursor: pointer;
 }
